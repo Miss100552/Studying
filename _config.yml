@@ -1,0 +1,10 @@
+title: "我的学习笔记"
+email: "你的邮箱(可选)"
+description: >- 
+  这里记录我每天的学习内容和心得。
+baseurl: "/Studying" # 关键！因为你的仓库名是 Studying
+url: "https://你的用户名.github.io" 
+
+# 这里的配置告诉 Jekyll 怎么处理 GitHub 的元数据
+repository: 你的用户名/Studying
+remote_theme: minima
