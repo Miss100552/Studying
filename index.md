@@ -9,3 +9,12 @@ title: 我的学习笔记
 
 ## 我的文章列表
 下面会自动列出你 _posts 文件夹里的文章：
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
