@@ -8,3 +8,6 @@ url: "https://Miss100552.github.io"
 # 这里的配置告诉 Jekyll 怎么处理 GitHub 的元数据
 repository: Miss100552/Studying
 remote_theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-github-metadata
