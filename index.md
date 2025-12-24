@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: 我的学习笔记
 ---
 
