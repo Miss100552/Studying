@@ -30,5 +30,5 @@ public static void hey(int...i)
 运用循环、switch编写，暂时只用两位  
 1）在实现过程中，练习使用了用户交互Scanner；  
 2）在使用scanner.nextInt()时，这个会残留一个回车，导致下一个循环中的scanner.nextLine()接收到的是一个回车，从而迅速跳到下一循环  
-解决方案：在使用scanner.nextInt后用nextLine将这个回车吃掉。
+解决方案：在使用scanner.nextInt后用nextLine将这个回车吃掉。  
 注意点：在这个程序中没有考虑到输入不规范的问题。
